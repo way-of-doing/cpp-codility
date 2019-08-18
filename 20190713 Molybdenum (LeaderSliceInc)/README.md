@@ -1,3 +1,5 @@
+https://app.codility.com/programmers/challenges/molybdenum2019/
+
 ## Task description
 
 Integers K, M and a non-empty array A consisting of N integers, not bigger than M, are given.

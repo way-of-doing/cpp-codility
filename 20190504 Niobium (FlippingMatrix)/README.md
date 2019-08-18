@@ -1,3 +1,5 @@
+https://app.codility.com/programmers/challenges/niobium2019/
+
 ## Task description
 
 Matrix A, consisting of N rows and M columns, is given, with each  cell containing the value 0 or 1. Rows are numbered from 0 to N−1 (from  top to bottom). Columns are numbered from 0 to M−1 (from left to right).  The values inside the matrix can be changed: you can select as many  columns as you want, and in the selected column(s), every value will be  flipped (from 0 to 1, or from 1 to 0).
