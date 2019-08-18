@@ -6,9 +6,9 @@ The goal is to obtain the maximum number of rows whose contents are  all the sam
 
 Write a function:
 
-> ```c++
-> int solution(vector< vector<int> > &A);
-> ```
+```c++
+int solution(vector< vector<int> > &A);
+```
 
 that, given matrix A, returns the maximum number of rows containing  all the same values that can be obtained after flipping the selected  columns.
 
