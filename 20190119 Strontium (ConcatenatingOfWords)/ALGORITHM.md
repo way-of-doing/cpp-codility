@@ -14,12 +14,12 @@ To calculate this, we need to iterate over all words and remember:
 
 **Globally:**
 
-- The length of the longest uniform run seen in any word
+- The length of the longest uniform run seen in any word (covers case 1)
 
 **For each letter individually:**
 
-- The lengths of its longest uniform prefix and/or suffix **not** belonging to uniform words (adding the two will cover case 2 above)
-- The total length of uniform words (adding this to the result of case 2 solves the more general case 3 above)
+- The lengths of the longest uniform prefix and/or suffix **not** belonging to uniform words (adding the two covers case 2)
+- The total length of uniform words consisting of that letter (adding this to the result of case 2 covers case 3)
 
 **There is one additional complication:**
 
